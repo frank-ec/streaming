@@ -1,0 +1,136 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/* Fin del reseteo del css */
+
+body{
+
+		font-size: 62.5%;	
+
+/* Aplica al 62.5% al tamaño de la letra del body*/
+
+
+}
+
+/* ///// Reglas css para h1 ////////*/
+
+h1{
+
+	font: normal 1.8em Verdana, Geneva, sans-serif;
+
+/* Tipo de fuente, tamaño */
+
+	background:-moz-linear-gradient(top, #00F, #0CF);
+/* Se aplica degradado*/
+	
+	width: 45%;
+/* Se aplica ancho del 35% de la pagina */
+
+	border-radius: 10px;
+/* Se aplica borde al h1 */
+
+	margin: 15px auto;
+
+/* Se aplica un margen de 15 px por arriba y por abajo y automatico de izquierda a derecha */
+
+	text-align: center;
+/* Alineación de texto en el centro  */
+
+	padding: 15px;
+/* Distancia del texto al borde del contenedor   */
+
+	color: #FFF;
+/* Color del texto (blanco) */
+
+	box-shadow: #00F 5px 5px 20px ;
+
+/* Sombreado al contenedor */
+
+	text-shadow: #FFF 2px 2px 5px;
+}
+
+
+/* ///// Reglas css para h2 ////////*/
+
+h2 {
+
+	font:bold 1.7em Verdana, Geneva, sans-serif ;
+	margin:0px;
+	padding: 5px 0px 5px 0px;
+	color: #FF4000;
+
+}
+
+
+section {
+
+	width: 91%;
+	border-top: 1px dashed #999;
+	margin: 15px auto;
+}
+
+figure {
+
+	float: left;
+
+/* Aplicando float se ubican a continuación una de otra */
+
+}
+
+figure img {
+	
+	padding: 4px;
+	background: #666; 
+	border-radius: 20px;
+	-moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
+	/* Parametros para la Animación en mozilla */
+
+	box-shadow: #999 5px 5px 10px ;	
+}
+
+figure img:hover{
+
+	-moz-transform:scale(1.2);
+	
+/* Incrementa el tamaño de la imagen*/
+} 
+
+figcaption {
+
+	font-family: Arial, Helvetica, sans-serif ;
+	color: #0B0B61;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 5px;
+	
+
+}
+
+footer{
+
+	clear:both;
+	padding-top: 100px;
+
+
+}
+
+
+footer p{
+
+	font: 1.6em Georgia, Times;
+	color: #666;
+	margin: 10px 8px;
+
+}
+
+
