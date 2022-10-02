@@ -21,7 +21,7 @@ include_once("config/parametros.php");
 <body>
 <div id="contenedor">
 	<div id="cabecera">
-		<h1>AWS Streaming</h1>
+		<h1>Uso de AWS Streaming</h1>
 	</div>
 	<div id="navegacion">
 	</div>
